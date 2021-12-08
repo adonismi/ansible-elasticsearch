@@ -1,0 +1,7 @@
+- name: Simple Example
+  hosts: 127.0.0.1
+  connection: local
+  roles:
+    - role: elastic.elasticsearch
+  vars:
+    es_version: 7.15.1
